@@ -1,0 +1,31 @@
+<!--	Author: Heather Moore
+		Date:	8/29/16
+		File:	FixIt5.txt
+		Purpose:Chapter3 Exercise
+-->
+
+Something is wrong here. Read the requirements then check the algorithms 
+carefully and fix the problem:
+
+REQUIREMENT: Write a Web-based application consistng of a Web form
+(calcTax.html) and a PHP progam (calcTax.php). The application should:
+ask the user for a purchase amount; calculate the tax (7% or 0.07 
+of the cost); calculate the total cost; display the purchase amount, tax, and 
+total cost.
+
+calcTax.html algorithm:
+
+	Prompt for purchaseAmount
+	Get purchaseAmount
+	Submit purchaseAmount to calcTax.php
+END
+
+calcTax.php algorithm:
+
+	Receive purchaseAmount from calcTax.html
+	tax = purchaseAmount * 0.07
+	total = purchaseAmount + tax
+	Display purchaseAmount, tax, total
+END
+
+

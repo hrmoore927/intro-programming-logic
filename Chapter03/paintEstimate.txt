@@ -1,0 +1,15 @@
+<!--	Author:
+	Date:
+	File:	paintEstimate.txt
+	Purpose:Chapter 3 Exercise
+-->
+
+paintEstimate.html algorithm:
+
+END
+
+
+
+paintEstimate.php algorithm:
+
+END

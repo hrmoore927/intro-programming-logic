@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--Author:	Heather Moore
+	Date:	10/3/16
+	File:	Modify2.html
+	Purpose:Chapter 7 Exercise
+
+	Modify2.html asks the user to enter the number of
+	adult and children's tickets they wish to purchase.Modify2.php
+	processes the order.
+
+	Change Modify2.php so that, if at least two children's tickets
+	are purchased, the program adds the message
+	"<p>We hope your kids enjoy the show!</p>"
+	at the end of the existing output.
+
+-->
+
+<html>
+<head>
+	<title>Modify2</title>
+	<link rel ="stylesheet" type="text/css" href="sample.css" >
+</head>
+<body>
+	<h1>Modify2</h1>
+	<form action = "Modify2.php" method = "post" >
+		<p>How many adult tickets do you need?
+			<input type = "text" size = "10" name = "adultTickets" >
+		</p>
+		<p>How many children's tickets do you need?
+			<input type = "text" size = "10" name = "childTickets" >
+		</p>
+		<p><input type = "submit" value = "Calculate the cost" ></p>
+	</form>
+</body>
+</html>

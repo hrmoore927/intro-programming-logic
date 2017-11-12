@@ -1,0 +1,32 @@
+<!--	Author: Heather Moore
+		Date:	8/29/16
+		File:	FixIt3.txt
+		Purpose:Chapter3 Exercise
+-->
+
+Something is wrong here. Read the requirements then check the algorithms 
+carefully and fix the problem:
+
+REQUIREMENT: Write a Web-based application consisting of a Web form
+(ticketPurchase.html) and a PHP progam (ticketPurchase.php). The application 
+should: ask the user for the number of movie tickets they wish to purchase;
+calculate the total cost (each ticket sells for 6.50); display the
+number of tickets purchased and the total cost:
+
+ticketPurchase.html algorithm:
+
+	Prompt for numTickets
+	Get numTickets
+	Submit numTickets to ticketPurchase.php
+	
+END
+
+ticketPurchase.php algorithm:
+
+	Receive numTickets from ticketPurchase.html
+	totalCost = numTickets * 6.50
+	Display numTickets, totalCost
+END
+
+
+

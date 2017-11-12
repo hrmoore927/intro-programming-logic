@@ -1,0 +1,25 @@
+<!--	Author:	Heather Moore
+		Date:	8/31/16
+		File:	travel.txt
+		Purpose:Chapter 3 Exercise
+-->
+
+travel.html algorithm:
+
+	Prompt for numPeople
+	Get numPeople
+	Prompt for numNights
+	Get numNights
+	Submit numPeople and numNights to travel.php
+
+END
+
+travel.php algorithm:
+
+	Receive numPeople and numNights from travel.html
+	costAirline = numPeople * 875
+	costHotel = numPeople * 110 * numNights
+	total = costAirline + costHotel
+	Display numPeople, numNights, costAirline, costHotel, total
+
+END

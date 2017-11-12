@@ -1,0 +1,27 @@
+<!--	Author: Heather Moore
+		Date:	8/31/16
+		File:	softwareOrder.txt
+		Purpose:Chapter 3 Exercise
+-->
+
+softwareOrder.html algorithm:
+
+	Prompt for numCopies
+	Get numCopies
+	Prompt for operatingSystem
+	Get operatingSystem
+	Submit numCopies and operatingSystem to softwareOrder.php
+
+END
+
+softwareOrder.php algorithm:
+
+	Receive numCopies and operatingSystem from softwareOrder.html
+	subtotal = numCopies * 35
+	tax = subtotal * 0.07
+	shippingHandling = numCopies * 1.25
+	total = subtotal + tax + shippingHandling
+	Display operatingSystem, numCopies, subtotal, tax, shippingHandling, total
+	
+
+END

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--Author:	Heather Moore
+	Date:	10/3/16
+	File:	Modify1.html
+	Purpose:Chapter 7 Exercise
+
+	Modify1.html provides a form asking the user to enter their age.
+	Modify1.php calculates and displays the number of years until
+	retirement, even if the user enters 65 or above!
+	Change Modify1.php so that the progam either calculates and displays
+	the years until retirement, or else calculates and displays the number of
+	years the person has been retired. To do this, use an IF..ELSE structure
+	to test the age. Assume that someone less than 65
+	is not retired, someone 65 or older is retired
+-->
+
+<html>
+<head>
+	<title>Modify1</title>
+	<link rel ="stylesheet" type="text/css" href="sample.css" >
+</head>
+<body>
+	<h1>Modify1</h1>
+	<form action = "Modify1.php" method = "post" >
+
+		<p>Please enter your age:
+			<input type = "text" size = "10" name = "age" >
+		</p>
+		<p><input type = "submit" value = "Calculate years to retirement" ></p>
+	</form>
+</body>
+</html>

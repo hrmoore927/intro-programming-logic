@@ -1,0 +1,14 @@
+<!--	Author:
+	Date:
+	File:	fuelCost.txt
+	Purpose:Chapter 3 Exercise
+-->
+
+fuelCost.html algorithm:
+
+	
+END
+
+fuelCost.php algorithm:
+
+END
